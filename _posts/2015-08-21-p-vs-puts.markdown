@@ -40,7 +40,6 @@ Output should look like:
 {% highlight bash %}
 
 "hello I am string"
-
 1
 
 {% endhighlight %}
