@@ -162,9 +162,8 @@
  * Page content
  */
  .page-content {
-    // padding: $spacing-unit 0;
-    padding: 30px 0;
-    background-image: url(http://descartez.github.io/img/TandyComputerWhizKids.png);
+    padding: $spacing-unit 0;
+    background-image: $background-image;
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
