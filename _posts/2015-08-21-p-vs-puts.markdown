@@ -2,7 +2,7 @@
 layout: post
 title:  "Ruby Basics: p vs puts"
 date:   2015-08-21 09:44:31
-categories: jekyll update
+categories: ruby basics intro
 ---
 ### Setting up the file:
 
