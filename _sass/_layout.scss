@@ -178,6 +178,13 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        padding: 15px;
+        opacity: $hover-off-opacity;
+        background-color: $background-color;
+    }
+
+    > li:hover{
+        opacity: $hover-on-opacity;
     }
 }
 
