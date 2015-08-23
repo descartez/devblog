@@ -61,7 +61,7 @@
 
             > svg {
                 width: 18px;
-                height: 15px;
+                height: $spacing-unit-half;
 
                 path {
                     fill: $grey-color-dark;
@@ -108,7 +108,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $spacing-unit-half;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -165,11 +165,13 @@
     padding: $spacing-unit 0;
     background-image: $background-image;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
 .page-heading {
     font-size: 20px;
+    background-color: $background-color;
+    padding: $spacing-unit-half;
 }
 
 .post-list {
@@ -178,7 +180,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
-        padding: 15px;
+        padding: $spacing-unit-half;
         opacity: $hover-off-opacity;
         background-color: $background-color;
     }
