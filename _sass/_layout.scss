@@ -169,7 +169,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: $base-font-size;
     background-color: $background-color;
     padding: $spacing-unit-half;
 }
@@ -183,6 +183,10 @@
         padding: $spacing-unit-half;
         opacity: $hover-off-opacity;
         background-color: $background-color;
+
+    > h1 {
+        font-size: 1.2em;
+    }
     }
 
     > li:hover{
@@ -200,7 +204,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: $base-font-size;
 }
 
 
