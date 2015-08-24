@@ -23,12 +23,27 @@
     }
 }
 
+#nav-icons {
+    > a {
+        color: grey;
+        padding-right: 7px;
+    }
+
+    > a:hover {
+        color: black
+    }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
 
     .menu-icon {
         display: none;
+    }
+
+    > a {
+        color: black
     }
 
     .page-link {
