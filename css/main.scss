@@ -8,10 +8,11 @@
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   1.2em;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  0.8em;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$spacing-unit-half: $spacing-unit / 2;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -22,6 +23,7 @@ $hover-on-opacity: 1;
 $hover-off-opacity: 0.8;
 
 $grey-color:       #828282;
+$dark-grey-color: #303030;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
