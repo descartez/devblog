@@ -1,7 +1,7 @@
 /**
  * Site header
  */
-.site-header {
+ .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -23,12 +23,27 @@
     }
 }
 
+#nav-icons {
+    > a {
+        color: $dark-grey-color;
+        padding-right: 7px;
+    }
+
+    > a:hover {
+        color: black
+    }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
 
     .menu-icon {
         display: none;
+    }
+
+    > a {
+        color: black
     }
 
     .page-link {
@@ -61,7 +76,7 @@
 
             > svg {
                 width: 18px;
-                height: 15px;
+                height: $spacing-unit-half;
 
                 path {
                     fill: $grey-color-dark;
@@ -91,7 +106,7 @@
 /**
  * Site footer
  */
-.site-footer {
+ .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
@@ -108,7 +123,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: $spacing-unit-half;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -161,12 +176,17 @@
 /**
  * Page content
  */
-.page-content {
+ .page-content {
     padding: $spacing-unit 0;
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: $base-font-size;
+    background-color: $background-color;
+    padding: $spacing-unit-half;
 }
 
 .post-list {
@@ -175,17 +195,31 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        padding: $spacing-unit-half;
+        opacity: $hover-off-opacity;
+        background-color: $background-color;
+
+    > h1 {
+        font-size: 1.2em;
+    }
+    }
+
+    > li:hover{
+        opacity: $hover-on-opacity;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    background-color: $background-color;
+    opacity: 0.7;
+    padding: 10px;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: $base-font-size;
 }
 
 
@@ -193,7 +227,7 @@
 /**
  * Posts
  */
-.post-header {
+ .post-header {
     margin-bottom: $spacing-unit;
 }
 
@@ -201,6 +235,8 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    background-color: $background-color;
+    padding: $spacing-unit;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -209,6 +245,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    padding: $spacing-unit;
+    background-color: $background-color;
 
     h2 {
         font-size: 32px;
