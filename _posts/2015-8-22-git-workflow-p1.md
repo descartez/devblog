@@ -17,6 +17,7 @@ Okay, so you have to make an app, but you want to keep track of everything, and 
 - How to make changes to that repo and then push those changes
 
 ### The Clone Wars:
+
 #### How to make a repo
 - Go to your Github account.
 - There's a "+" symbol at the top right, that looks like this:
