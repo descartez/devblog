@@ -73,4 +73,4 @@ Honestly, if you plan on writing a huge websites with id's you're going to have 
 
 The advantage with pseudo-selectors is it generalizes code. Reusable code is wonderful.
 
-So use this wonderful tool! Unless you need to build Google or something. Usually you will not be doing that (thankfully).
+So use this wonderful tool! Unless you need to build Google or something. Usually you will not be doing that (thankfully). If you wanna read more, I'd go [here](http://csswizardry.com/2011/09/writing-efficient-css-selectors/). Or use that Google I hear so much about.
