@@ -53,7 +53,7 @@ Monkey see, monkey do. Monkey feels better and is happier. Monkey is free to mak
 
 ### Not Easy
 
-It's not easy. There are always personality conflicts, high emotions, misplaced toothbrushes and someone eating personal foods (we share our food costs, but I buy my own ice cream for example). Apologizing helps, but ultimately I've learned to be more mindful and hopefully avoid conflict in a constructive way. Intentionality is key, and we try to remind each other as often as possible to be kind.
+There are always personality conflicts, high emotions, misplaced toothbrushes and someone eating personal foods (we share our food costs, but I buy my own ice cream for example). Apologizing helps, but ultimately I've learned to be more mindful and hopefully avoid conflict in a constructive way. Intentionality is key, and we try to remind each other as often as possible to be kind.
 
 ### We Agreed
 

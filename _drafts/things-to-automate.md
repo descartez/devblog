@@ -9,7 +9,7 @@ A list of things you should automate:
 
 - Emails that have the same answer every time
   - i.e. "What time is the event?" (says every co-worker who did not read the flyer)
--Appointment reminders
+- Appointment reminders
   - It's difficult to find a calendar app that doesn't do this in this day and age.
 - Site/app skeleton generation
   - I have a couple scripts that do this, taking files and frameworks that I use every time and copy them into new directories
