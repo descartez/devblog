@@ -2,9 +2,9 @@
 title: Dez Does Dev
 email: rvanstong@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Blog posts. May contain text.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://descartez.github.io" # the base hostname & protocol for your site
+    WARNING: Please be advised that blog posts prepared here may contain: text, code, comic book references, odd facts about biology, humor, and star stuff.
+baseurl: "/devblog" # the subpath of your site, e.g. /blog/
+url: "http://descartez.github.io/" # the base hostname & protocol for your site
 twitter_username: dezdoesdev
 github_username:  descartez
 
